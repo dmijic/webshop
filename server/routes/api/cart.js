@@ -13,8 +13,9 @@ router.get("/", async (req, res) => {
 router.post("/", async (req, res) => {
   const cart = await loadCartCollection();
   await cart.insertOne({
-    itemId: req.body.itemId,
-    itemAmount: req.body.itemAmount
+    cartItems: req.body.cartItems,
+    customerInfo: req.body.customerInfo,
+    totalPrice: req.body.totalPrice
   });
   res.status(201).send();
 });
