@@ -18,7 +18,7 @@
     </div>
     <div
       class="ui inverted vertical masthead center aligned segment"
-      style="background: url('https://blooming-chamber-87933.herokuapp.com/img/header-img.jpg');"
+      style="background: url('http://dmijic.freesite.vip/webshop-assets/header-img.jpg');"
     >
       <div class="ui text container" style="margin: 20vh auto;">
         <h1 class="ui header" style="font-size: 8rem; font-weight: normal;">

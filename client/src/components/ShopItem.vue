@@ -2,7 +2,7 @@
   <div>
     <img
       class="ui fluid image"
-      v-bind:src="'https://blooming-chamber-87933.herokuapp.com/img/' + item.itemImgUrl"
+      v-bind:src="'http://dmijic.freesite.vip/webshop-assets/' + item.itemImgUrl"
     />
     <h2>{{ item.itemName }}</h2>
     <div class="ui hidden divider"></div>
